@@ -20,7 +20,7 @@
    * _utils
    * __constants.js
    * __subjects.js
-   * --script.js
+   * __script.js
    * ------------------------------------------------
    * Data flow:
    * inputSearchSubject emit input-change event from the SearchInput
