@@ -1,0 +1,35 @@
+html,
+body,
+div,
+h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+.search {
+    width: 600px;
+    height: 80%;
+}
+
+.search-list-item {
+    text-align: center;
+}
+
+.search-list-item:hover {
+    border: 1px solid #000;
+    box-shadow: 1px 1px #000;
+}
