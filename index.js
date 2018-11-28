@@ -21,20 +21,20 @@
    * __constants.js
    * __subjects.js
    * --script.js
-   *------------------------------------------------
+   * ------------------------------------------------
    * Data flow:
    * inputSearchSubject emit input-change event from the SearchInput
    * SearchResultList observe the inputSearchSubject
    * Search observe the inputSearchSubject
    *
-   *                                    |-> SearchResultList
-   * SearchInput -> inputSearchSubject -|
-   *                                    |-> Search
+   *                                     |-> SearchResultList
+   * SearchInput -> inputSearchSubject ->|
+   *                                     |-> Search
    *
    * searchResultsSubject emit results-data from the Search
    * SearchResultList observe the searchResultsSubject
    *
-   * Search -> searchResultsSubject -> searchResultsSubject
+   * Search -> searchResultsSubject -> SearchResultList
    *
    * ------------------------------------------------
    * Dependency:
